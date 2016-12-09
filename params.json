@@ -1,0 +1,6 @@
+{
+  "name": "Hasht",
+  "tagline": "HashT is a simple file hash calculator",
+  "body": "# HashT\r\n![hasht screenshot](https://raw.githubusercontent.com/m4ns0ur/hasht/master/screenshot/hasht.png)\r\n\r\n**HashT** is a simple file hash calculator. Just drag and drop a file, to calculate hash.\r\nThese hash algorithms are supported: `MD5, SHA-1, SHA-256, SHA-384, SHA-512`\r\n\r\nHashT has created with [Electron](https://github.com/electron/electron), so it's a cross platfrom standalone application.\r\n\r\n## Get Started\r\ninstall dependencies, build the application, and run\r\n```\r\nnpm install\r\nnpm run build\r\nnpm run start\r\n```\r\n\r\n## Package as Executable\r\nthe easiest way is using [electron-packager](https://github.com/electron-userland/electron-packager). you can install it globaly, and run to generate Executable for all platfroms\r\n```\r\nnpm install electron-packager -g\r\nelectron-packager . --all\r\n```\r\n\r\n## Open Source Licenses\r\n- [electron](https://github.com/electron/electron/blob/master/LICENSE)\r\n- [React](https://github.com/facebook/react/blob/master/LICENSE)\r\n- [babel](https://github.com/babel/babel/blob/master/LICENSE)\r\n- [webpack](https://github.com/webpack/webpack/blob/master/LICENSE)\r\n\r\n## License\r\n[MIT](LICENSE)\r\n",
+  "note": "Don't delete this file! It's used internally to help with page regeneration."
+}
