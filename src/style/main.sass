@@ -1,0 +1,34 @@
+.visible
+  visibility: visible
+
+.hidden
+  visibility: hidden
+
+#app
+  font-family: Helvetica, sans-serif
+
+=transform($y)
+  -webkit-transform: translateY(-$y)
+  -moz-transform: translateY(-$y)
+  -ms-transform: translateY(-$y)
+  transform: translateY(-$y)
+
+#file-holder
+  text-align: center
+  vertical-align: middle
+  margin-top: 0px
+
+$y: 26%
+#drag-parag
+    color: #E0E0E0
+    font-size: 35px
+    position: relative
+    top: $y
+    +transform($y)
+
+$y: 20%
+#stat-parag
+    font-size: 20px
+    position: relative
+    top: $y
+    +transform($y)

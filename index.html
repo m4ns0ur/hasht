@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>hasht</title>
+  </head>
+  <body>
+    <div id="react-root"></div>
+    <script>
+      let bundlePath = './build/bundle.js'
+      // if (typeof process !== 'undefined' && process.env.NODE_ENV === 'DEV') {
+      //   bundlePath = 'http://localhost:8080/build/bundle.js'
+      // }
+      const bundleScriptElm = document.createElement('script')
+      bundleScriptElm.src = bundlePath
+      document.currentScript.parentNode.insertBefore(bundleScriptElm, document.currentScript)
+    </script>
+  </body>
+</html>
