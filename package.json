@@ -10,30 +10,31 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "file", "hash"
+    "file",
+    "hash"
   ],
   "author": "m4ns0ur",
   "license": "MIT",
   "dependencies": {
-    "electron-prebuilt": "^1.4.10",
+    "electron-prebuilt": "^1.4.13",
     "log-update": "^1.0.2",
     "progress-stream": "^1.2.0",
-    "react": "^15.4.1",
-    "react-dom": "^15.4.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
     "react-tap-event-plugin": "^2.0.1"
   },
   "devDependencies": {
-    "babel": "^6.5.2",
-    "babel-core": "^6.18.2",
-    "babel-loader": "^6.2.8",
-    "babel-preset-es2015": "^6.18.0",
-    "babel-preset-react": "^6.16.0",
-    "css-loader": "^0.26.1",
+    "babel": "^6.23.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^6.4.1",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "css-loader": "^0.26.4",
     "devtron": "^1.4.0",
-    "electron": "^1.4.10",
-    "sass-loader": "^4.0.2",
-    "style-loader": "^0.13.1",
-    "webpack": "^1.13.3",
-    "webpack-dev-server": "^1.16.2"
+    "electron": "^28.2.1",
+    "sass-loader": "^4.1.1",
+    "style-loader": "^0.13.2",
+    "webpack": "^1.15.0",
+    "webpack-dev-server": "^1.16.5"
   }
 }
